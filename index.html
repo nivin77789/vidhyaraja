@@ -557,27 +557,30 @@
         </ul>
       </div>
 
-      <div class="col-lg-2 col-md-3 footer-links">
-        <h4>Support</h4>
-        <ul>
-          <li><a href="#">FAQs</a></li>
-          <li><a href="#">Terms of Service</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Help Desk</a></li>
-          <li><a href="#">Site Map</a></li>
-        </ul>
-      </div>
+      <div id="contact" class="col-md-3 footer-item last-item">
+        <h4>Contact Us</h4>
+        <div class="contact-form">
+       <form id="contact footer-contact" action="https://api.web3forms.com/submit" method="POST" class="footer-form">
+  <input type="hidden" name="access_key" value="ff78b595-6374-4311-9f45-358d3e3c4d81">
+  
+  <div class="row g-2">
+    <div class="col-12">
+      <input name="name" type="text" class="form-control dark-input" placeholder="Full Name" required>
+    </div>
+    <div class="col-12">
+      <input name="email" type="email" class="form-control dark-input" placeholder="Email" required>
+    </div>
+    <div class="col-12">
+      <textarea name="message" rows="3" class="form-control dark-input" placeholder="Your Message" required></textarea>
+    </div>
+    <div class="col-12 text-end">
+      <button type="submit" class="btn btn-sm btn-outline-light">Send</button>
+    </div>
+  </div>
+</form>
 
-      <div class="col-lg-2 col-md-3 footer-links">
-        <h4>Social</h4>
-        <ul>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Instagram</a></li>
-          <li><a href="#">YouTube</a></li>
-          <li><a href="#">LinkedIn</a></li>
-          <li><a href="#">Twitter</a></li>
-        </ul>
-      </div>
+
+        </div>
 
     </div>
   </div>
